@@ -1,0 +1,28 @@
+.launcher {
+  &__background {
+    &-container {
+      &-item {
+        position: absolute;
+      }
+
+      #bg-item {
+        &-left {
+          left: -38px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        &-top {
+          top: -26px;
+          right: -30px;
+        }
+
+        &-bottom {
+          bottom: -22px;
+          right: 153px;
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+}
